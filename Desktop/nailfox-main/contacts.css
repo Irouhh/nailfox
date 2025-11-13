@@ -1,0 +1,158 @@
+.contacts-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+  background: linear-gradient(135deg, #D87C6D 0%, #c56a5b 100%);
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.contact-details h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.contact-details p {
+  font-size: 1.2rem;
+  color: #D87C6D;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+.contact-note {
+  font-size: 1rem !important;
+  color: #888 !important;
+  font-weight: 400 !important;
+  margin: 0 !important;
+}
+
+/* соц сети */
+.social-section {
+  text-align: center;
+  background: #f8f4f2;
+  border-radius: 20px;
+  padding: 50px 40px;
+}
+
+.social-title {
+  font-size: 1.8rem;
+  color: #D87C6D;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid #4a76a8;
+  color: #4a76a8;
+  background: #fff;
+}
+
+.social-link.vk {
+  border-color: #4a76a8;
+  color: #4a76a8;
+}
+
+.social-link:hover {
+  background: #4a76a8;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(74, 118, 168, 0.3);
+}
+
+.social-link i {
+  font-size: 1.3rem;
+}
+
+/* Карта */
+.map-section {
+  text-align: center;
+}
+
+.map-title {
+  font-size: 1.8rem;
+  color: #D87C6D;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+
+.map-placeholder {
+  background: #f8f4f2;
+  border-radius: 20px;
+  padding: 80px 40px;
+  border: 2px dashed #D87C6D;
+  color: #666;
+}
+
+.map-placeholder i {
+  font-size: 3rem;
+  color: #D87C6D;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.map-placeholder p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.map-placeholder small {
+  color: #888;
+  font-size: 1rem;
+}

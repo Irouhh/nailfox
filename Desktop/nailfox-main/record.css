@@ -1,0 +1,91 @@
+.locations-section {
+    padding: 80px 60px;
+    background: linear-gradient(135deg, #fffefd 0%, #fefbf9 100%);
+    min-height: 100vh;
+}
+
+.discount-banner {
+    background: linear-gradient(135deg, #D87C6D 0%, #c56a5b 100%);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 10px 30px rgba(216, 124, 109, 0.3);
+}
+
+.discount-banner h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.discount-banner p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.locations-grid {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto 50px;
+}
+
+.location-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 100%;
+}
+
+.location-card h3 {
+    color: #D87C6D;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.location-card p {
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.location-select {
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+.map-container {
+    margin-top: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 30px;
+    color: #D87C6D;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: 2px solid #D87C6D;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #D87C6D;
+    color: white;
+    text-decoration: none;
+}

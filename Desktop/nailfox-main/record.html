@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Онлайн-запись</title>
+  <link rel="stylesheet" href="gl.css" />
+  <link rel="stylesheet" href="record.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Foxy<span>Nail</span></div>
+    <nav>
+      <a href="gl.html">Главная</a>
+      <a href="gl.html#services">Услуги</a>
+      <a href="gl.html#benefits">Преимущества</a>
+      <a href="gl.html#about-studio">О студии</a>
+      <button onclick="window.location.href='contacts.html'">Контакты</button>
+    </nav>
+    <button class="btn-header" onclick="location.href='record.html'">Онлайн-запись</button>
+  </header>
+
+  <main>
+    <section class="locations-section">
+      <a href="gl.html" class="back-button">← Назад на главную</a>
+      
+      <div class="discount-banner">
+        <h2>Скидка 10% на первый визит!</h2>
+        <p>При записи через сайт — специальное предложение для новых клиентов</p>
+      </div>
+      
+      <div class="locations-grid">
+        <div class="location-card">
+          <h3>FOXYNAIL</h3>
+          <p><strong>Адрес:</strong> Кострома, ул. Полянская, д. 12а</p>
+          <p><strong>Часы работы:</strong> пн-вс: 10:00 - 20:00</p>
+          <p><strong>Телефон:</strong> +7-910-926-61-10</p>
+          <button class="btn-main location-select">Записаться онлайн</button>
+        </div>
+      </div>
+      
+      <div class="map-container">
+        <iframe 
+          src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=40.925457%2C57.779571&pt=40.926183%2C57.767918&source=mapframe&utm_source=mapframe&z=17.06" 
+          width="100%" 
+          height="400" 
+          frameborder="0">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-contact">
+        <h3>Контакты</h3>
+        <div class="contact-block">
+          <p><strong>Телефон:</strong> +7-910-926-61-10</p>
+          <p><strong>Адрес:</strong> г. Кострома, ул. Полянская, д. 12а</p>
+          <p><strong>График:</strong> Ежедневно 10:00 - 20:00</p>
+        </div>
+        <div class="footer-info">
+          <p>© 2025 FoxyNail — Салон маникюра в Костроме. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Политика конфиденциальности</p>
+    </div>
+  </footer>
+
+  <script src="record.js"></script>
+</body>
+</html>
